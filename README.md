@@ -1,6 +1,6 @@
 ## Project overview:
 
-The join is a fundamental operation in relational data processing that finds matching rows between two tables. In this project, you will implement, test, and benchmark a disk-based join algorithm. Your goal is to efficiently use memory and disk resources to return the answer to the following query.
+The join is a fundamental operation in relational data processing that finds matching rows between two tables. In this project, I implement, test, and benchmark a disk-based join algorithm, BNLJ (block nested loop join). My goal is to efficiently use memory and disk resources to return the answer to the following query.
 
 ```sql
 SELECT R.b, S.b
